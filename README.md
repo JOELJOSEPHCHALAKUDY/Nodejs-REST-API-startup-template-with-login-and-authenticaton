@@ -2,7 +2,7 @@
 Nodejs REST API  startup template with login and authenticaton ( Express, Mongoose, Mongodb, jwt , passport )  
 
 
-The main purpose of this repository is to show a good end-to-end project setup and workflow for writing Node code in TypeScript.
+The main purpose of this repository is to show a good end-to-end project setup and workflow for writing Node REST API with jwt authentication.
 I will try to keep this as up-to-date as possible, but community contributions and recommendations for improvements are encouraged and will be most welcome. 
 
 
