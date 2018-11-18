@@ -41,11 +41,11 @@ app.use(function (req, res, next) {
     res.setHeader('Access-Control-Allow-Method','GET, POST, OPTION, PUT, PATCH, DELETE');
 
     // request headers you wish to allow 
-    res.setHeader('Access-Control-Alloe-Headers','X-Requested-With,content-type');   
+    res.setHeader('Access-Control-Allow-Headers','X-Requested-With,content-type');   
 
     // set to true if you need the website to include  cookies  in the  request  sent 
     // to the API (eg. in case you can see sessions )
-    res.setHeader('Access-Control-Alloe-Credentials','false');
+    res.setHeader('Access-Control-Allow-Credentials','false');
 
     // pass to the next layer of middleware
     next();
