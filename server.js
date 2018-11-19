@@ -41,7 +41,7 @@ app.use(function (req, res, next) {
     res.setHeader('Access-Control-Allow-Methods','GET, POST, OPTION, PUT, PATCH, DELETE');
 
     // request headers you wish to allow 
-    res.setHeader('Access-Control-Allow-Headers','X-Requested-With,content-type');   
+    res.setHeader('Access-Control-Allow-Headers','X-Requested-With,content-type,Authorization');   
 
     // set to true if you need the website to include  cookies  in the  request  sent 
     // to the API (eg. in case you can see sessions )
