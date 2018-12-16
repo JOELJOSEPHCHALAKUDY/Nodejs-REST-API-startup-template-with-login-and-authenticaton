@@ -46,7 +46,7 @@ passport.use(new localStatergy({
         // if not found  handle it 
         if(!account)
         {
-            return done(null , fasle);
+            return done(null , false);
         }
     
         // if account found check  password is correct
